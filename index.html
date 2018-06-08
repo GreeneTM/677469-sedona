@@ -94,7 +94,25 @@
             <p class="reservation-text">укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
             <section class="reservation-form">
                 <h3 class="reservation-form-title">Поиск гостиницы в Седоне</h3>
-                <!-- Здесь будет форма -->
+                <form class="appointment-form" method="get" action="https://echo.htmlacademy.ru">
+                    <p class="appointment-item">
+                        <label for="appointment-arrival_date">Дата заезда:</label>
+                        <input type="text" name="arrival_date" id="appointment-arrival_date" value="" placeholder="24 апреля 2017">
+                    </p>
+                    <p class="appointment-item">
+                        <label for="appointment-date_of_departure">Дата выезда:</label>
+                        <input type="text" name="date_of_departure" id="appointment-date_of_departure" placeholder="4 июля 2017">
+                    </p>
+                    <p class="appointment-item">
+                        <label for="appointment-adults">Взрослые:</label>
+                        <input type="number" name="adults" id="appointment-adults" placeholder="2">
+                    </p>
+                    <p class="appointment-item">
+                        <label for="appointment-children">Дети:</label>
+                        <input type="number" name="children" value="appointment-children" placeholder="0">
+                    </p>
+                    <button type="submit" value="Найти">Найти</button>
+                </form>
             </section>
             <div class="reservation-map">
                 <!-- Здесь будет карта -->
@@ -105,14 +123,14 @@
         <p class="footer-hashtag">#VISITSEDONA</p>
         <div class="footer-social">
             <ul>
-                <li><a class="social-button" href="#">Твитер</a></li>
-                <li><a class="social-button" href="#">Фейсбук</a></li>
-                <li><a class="social-button" href="#">Ютуб</a></li>
+                <li><a class="social-button" href="#" aria-label="Твиттер">Твиттер</a></li>
+                <li><a class="social-button" href="#" aria-label="Фейсбук">Фейсбук</a></li>
+                <li><a class="social-button" href="#" aria-label="Ютуб">Ютуб</a></li>
             </ul>
         </div>
         <p class="footer-copyright">
             <b>WEBSITE BY</b>
-            <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+            <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy">HTML Academy</a>
         </p>
     </footer>
 </body>
