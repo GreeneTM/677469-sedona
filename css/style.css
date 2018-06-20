@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
+    
+    background-color: #ffffff;
+}
+
+.inner-page {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: #ffffff;
+    text-align: center;
+    
+    border: none;
+    
+    background-color: #81b3d2;
+}
+
+.button:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.main-navigation {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    
+    background-color: #ffffff;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation a {
+    color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #81b3d2;
+}
+
+.site-navigation a:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.advantage-title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.advantage-item span,
+.advantage-text {
+    line-height: 21px;
+    color: #000000;
+    
+    background-color: #ffffff;
+}
+
+.advantage-upper h3,
+.advantage-medium h3 {
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+
+    background-color: #81b3d2;
+}
+
+.advantage-upper span,
+.advantage-medium span {
+    line-height: 21px;
+    color: #ffffff;
+    
+    background-color: #81b3d2;
+}
+
+.advantage-upper p,
+.advantage-medium p {
+    line-height: 21px;
+    color: #ffffff;
+    
+    background-color: #81b3d2;
+}
+
+.advantage-subtitle {
+    font-size: 14px;
+    line-height: 21px;
+
+    background-color: #ffffff;
+}
+
+.advantage-list {
+    list-style: none;
+}
+
+
+.services-list {
+    list-style: none;
+}
+
+.services-title {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #000000;
+}
+
+.services-text {
+    line-height: 21px;
+    
+    background-color: #ffffff;
+}
+
+.reservation-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #000000;
+    
+    background-color: #ffffff;
+}
+
+.reservation-text {
+    line-height: 24px;
+    
+    background-color: #ffffff;
+}
+
+.appointment-title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    
+    background-color: #766357;
+}
+
+.appointment-title:hover,
+.appointment-title:focus {
+    background-color: #604e43;
+}
+
+.appointment-title:active {
+    color: rgba(255, 255, 255, 0.3);
+    
+    background-color: #503e33;  
+}
+
+.appointment label,
+.appointment input {
+    font: inherit;
+    font-weight: 700;
+    
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.appointment input:hover {
+    background-color: #ebebeb;
+}
+
+.appointment input:focus {
+    background-color: #ffffff;
+    border: 2px solid #e5e5e5;
+}
+
+btn-search:hover,
+btn-search:focus {
+    background-color: #669ec0;
+}
+
+btn-search:active {
+    color: rgba(255, 255, 255, 0.3);
+    
+    background-color: #5496bd;
+}
+
+.reservation-map {
+    background-color: #ffffff;
+    background-image: url("img/map.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.footer-hashtag {
+    font-size: 21px;
+    font-weight: 700;
+    
+    background-color: #ffffff;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.social-button {
+    color: #81b3d2;
+}
+
+.foter-copyright b {
+    color: #000000;
+    
+    background-color: #ffffff;
+}
+
+.form {
+    background-image: url("img/fb.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.btn-filter {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    
+    vertical-align: middle;
+    text-align: center;
+    
+    background-color: rgba(0, 1, 1, 0.2);
+    
+    border: solid 2px #ffffff;
+}
+
+.option-form-result {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color:#000000;
+    
+    background-color: #ffffff;
+}
+
+.option-form-result p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    color:#000000;
+    
+    background-color: #ffffff;
+}
+
+.sorting {
+    list-style: none;
+}
+
+.btn-sorting {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+    
+    background-color: #ffffff;
+}
+
+.btn-sorting:hover,
+.btn-sorting:focus {
+    color: #81b3d2;
+}
+
+/*.btn-sorting:visited {
+    color: #81b3d2;
+    text-decoration: none;
+}*/
+
+.btn-sorting:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.offers-list,
+.offers-list .rating-list {
+    list-style: none;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.offers-name {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    
+    background-color: #ffffff;
+}
+
+.offers-name:hover,
+.offers-name:focus {
+    color: #81b3d2;
+}
+
+.offers-name:focus {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.offers-type {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.offers-value {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    
+    background-color: #f2f2f2;
+}
+
+.btn-info:hover,
+.btn-info:focus {
+    background-color: #669ec0;
+}
+
+.btn-info:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5496bd;
+}
+
+.btn-reservation {
+    background-color: #766357;
+}
+
+.btn-reservation:hover,
+.btn-reservation:focus {
+    background-color: #604e43;
+}
+
+.btn-reservation:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #503e33;
+}
+
+.main-footer {
+    background-color: #ffffff;
+}
+
+.inner-page .footer-hashtag {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.footer-copyright {
+    color: #000000;
+}
