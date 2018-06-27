@@ -9,7 +9,10 @@ body {
     text-transform: uppercase;
     color: #333333;
     
-    background-color: #ffffff;
+    width: 1280px;
+    background-color: #f2f2f2;
+
+    /*margin: 0 auto;*/
 }
 
 .inner-page {
@@ -73,6 +76,13 @@ a {
 
 .site-navigation a:active {
     color: rgba(0, 0, 0, 0.3);
+}
+
+.idea {
+    background-color: #000000;
+    background-image: url(../img/bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .advantage-title {
@@ -239,8 +249,8 @@ btn-search:active {
 }
 
 .form {
-    background-image: url("img/fb.jpg");
-    background-position: top center;
+    background-image: url("../img/fb.jpg");
+    background-position: center;
     background-repeat: no-repeat;
 }
 
